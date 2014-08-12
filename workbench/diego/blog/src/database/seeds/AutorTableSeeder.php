@@ -9,7 +9,7 @@ class AutorTableSeeder extends Seeder
         DB::table('autores')->delete();
 
         Autor::create(array(
-        	'string' => 'foo@bar.com'
+        	'email' => 'foo@bar.com'
         ));
     }
 

@@ -9,5 +9,3 @@ class Post extends \Eloquent
 		return $this->belongsTo('Diego\Blog\Model\Autor');
 	}
 }
-
-?>
