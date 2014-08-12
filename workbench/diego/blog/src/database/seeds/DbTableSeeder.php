@@ -9,5 +9,9 @@ class DbTableSeeder extends Seeder
 		$this->call('AutorTableSeeder');
 
 		$this->command->info('Autor table seeded');
+
+		$this->call('PostTableSeeder');
+
+		$this->command->info('Post table seeded');
 	}
 }
