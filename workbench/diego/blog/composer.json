@@ -1,0 +1,27 @@
+{
+    "name": "diego/blog",
+    "description": "A simple blog package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Almirón",
+            "email": "diego@diego.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "illuminate/view": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/database/seeds"
+        ],
+        "psr-0": {
+            "Diego\\Blog\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
